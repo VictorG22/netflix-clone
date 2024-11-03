@@ -1,0 +1,30 @@
+.user {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    font-size: 36px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.user__vivdeo-player {
+    border-radius: 10px;
+}
+
+.user__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
